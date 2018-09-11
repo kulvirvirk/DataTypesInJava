@@ -25,14 +25,27 @@ public class Main {
 
         System.out.println("Sum of float num and double num is: " + (floatVar+doubleVar));
 
-        //====================================================
+
+
         // ====================================================
         /*code below converts pounds to kilograms
          */
         double poundsVar = 5;
         double poundsToKg = poundsVar * 0.45359237;
-        System.out.println("====================================\n" +
+        System.out.println("\n====================================\n" +
                 poundsVar + " is equal to " + poundsToKg + " Kg");
+        //====================================================
+
+
+
+        //====================================================
+        char myChar = 'a';
+        boolean myBool = true;
+        System.out.println("\n====================================\n" +
+                "My char is " + myChar
+                + "and my boolean is " + myBool);
+        // ===================================================
+
 
 
     }
