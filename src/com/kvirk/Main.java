@@ -47,6 +47,15 @@ public class Main {
         // ===================================================
 
 
+        // ===================================================
+        //declaration of String
+        String testString = "This is a string!";
+        System.out.println("\n====================================\n");
+
+                System.out.println("Print testString : " + testString);
+        // ===================================================
+
+
 
     }
 }
